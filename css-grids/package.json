@@ -1,0 +1,17 @@
+{
+  "name": "css-grids",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass-challenge": "node-sass challenge/challenge.scss challenge/challenge.css -w",
+    "watch:sass-intro3": "node-sass intro-3/style.scss intro-3/style.css -w",
+    "watch:sass-intro4": "node-sass intro-4/style.scss intro-4/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
